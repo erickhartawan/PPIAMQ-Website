@@ -3,16 +3,21 @@
 .navbar 
     background-color: $background
     color: $primary
-    padding: 2em
+    padding: 0.5em
     border-bottom : 1px solid red
+    position: sticky
+    z-index: 5
+    
+    .container-fluid
+        position:sticky
 
 
 a 
     font-weight: 500
-    font-family: "MarkPro", sans-serif
-    font-size: 22px
+    // font-family: "MarkPro", sans-serif
+    font-size: 16px
     color: $primary
-    padding: 0.75em
+    padding: 0.5em
 
 .nav-link 
     color: $primary
@@ -21,3 +26,5 @@ a
 .navbar-right 
     justify-content: flex-end
 
+.dropdown-item
+    color: $primary
