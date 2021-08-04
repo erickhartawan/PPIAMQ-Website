@@ -1,31 +1,30 @@
 @import '/src/sass/Variables'
-
-.container
-    display: flex
-    flex-direction: row
-    width: 100vw
-    height: 80vh
-    color: $primary
-    margin-bottom: 2em
-
+.events
+    min-height: 80vh
 .left
-    flex: 2
+    display: flex
+    flex: 1.5
     margin: 0 0 0 0
+    position: relative
+    height: 100%
+    flex-direction: column
+    justify-content: space-between
     position: relative
     .title  
         text-align: left
         font-size: 36px
+    .left-photo
+        align-self: flex-start
     .who-we
         padding: 0.5em 0 0 0
         color: $text
         text-align: left
-    .grey-block //to be replaced with img
-        width: 100%
-        height: 33%
-        background-color: lightgrey
-        // margin-top: 80%
-        position: absolute
+    .bottom-photo
         top: 67%
+    .caption-event-name
+        z-index: 10
+        color: $primary
+        
 
 .middle
     flex: 1
@@ -40,13 +39,10 @@
 
 
 .right 
-    flex: 2
+    flex: 1.5
     .grey-block //to be replaced with img
         width: 100%
         height: 33%
         background-color: lightgrey
         // margin-top: 80%
         position: relative
-
-.title
-    color: $primary

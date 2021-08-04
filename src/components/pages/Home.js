@@ -1,6 +1,8 @@
 import "./Home.sass";
 import logo from "../../assets/img/ppiamq_logo.png";
 import WhoWeAre from "./Home/WhoWeAre";
+import Events from "./Home/Events/Events";
+import Seperator from "./Home/Seperator";
 function Home() {
     return (
         <>
@@ -21,6 +23,8 @@ function Home() {
                 </div>
             </div>
             <WhoWeAre />
+            <Seperator />
+            <Events />
         </>
     );
 }
