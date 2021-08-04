@@ -1,4 +1,4 @@
-import ReadMore from "./ReadMore";
+import CircleButton from "../../Buttons/CircleButton";
 import "./WhoWeAre.sass";
 
 function WhoWeAre() {
@@ -13,7 +13,7 @@ function WhoWeAre() {
                     Macquarie to date
                 </p>
                 <div>
-                    <ReadMore />
+                    <CircleButton data={{ text: "Read More" }} />
                 </div>
                 <div className="grey-block"></div>
             </div>
