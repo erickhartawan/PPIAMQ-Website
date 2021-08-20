@@ -1,5 +1,7 @@
-import AllBenefit from "./Membership benefit/AllBenefit";
 import "./MembershipBenefit.sass";
+import AllBenefit from "./Membership benefit/AllBenefit";
+import NewMemberInvite from "./Membership benefit/NewMemberInvite";
+
 
 
 function MembershipBenefit(){
@@ -32,6 +34,8 @@ function MembershipBenefit(){
                     </div>
             </div>
         <AllBenefit />
+        <NewMemberInvite />
+        <div className = "before-footer"></div>
         </>
     )
 
