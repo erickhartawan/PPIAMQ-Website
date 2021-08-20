@@ -89,13 +89,6 @@ function AllBenefit(){
                     <div className = "promo-small">promo</div>
                     <div className = "tc-small">tc</div>
                 </div>
-                <div className = "card">
-                    <div className = "grey-block-small"></div>
-                    <div className = "store-small">store</div>
-                    <div className = "promo-small">promo</div>
-                    <div className = "tc-small">tc</div>
-                </div>
-
             </div>
         </div>
         </>
