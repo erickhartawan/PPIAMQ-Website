@@ -8,13 +8,13 @@ function NewMemberInvite(){
                 <div className =  "Title-Card">
                     <div className = "Red-heading">
                         become our member
-                        <div className = "White-heading">
+                    <div className = "White-heading">
                         Fill up the google form and come to one of our events to get your PPIA Membership Card. 
-                        </div>
-                        <div className = "button">
-                    <CircleButton data={{ text: "JOIN US" }} />
-                </div>
+                    <div className = "button">
+                        <CircleButton data={{ text: "JOIN US" }} />
                     </div>
+                    </div>
+                    </div> 
                 </div>
             </div>
         </>
