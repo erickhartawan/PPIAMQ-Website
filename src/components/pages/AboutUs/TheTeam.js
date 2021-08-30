@@ -4,6 +4,7 @@ import annie from "../../../assets/img/annie.png";
 function TheTeam() {
     return (
         <div className="team-container">
+            {/* will write a json to get data from  */}
             <div className="team-content">
                 <div className="first-row d-flex flex-row justify-content-evenly align-items-center">
                     <div className="committee-photo p-2">

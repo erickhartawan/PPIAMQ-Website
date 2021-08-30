@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutUs.sass";
 import aboutLanding from "../../../assets/img/about-landing.png";
 import TheTeam from "./TheTeam";
+import OverlappedImages from "./OverlappedImages";
+
 function AboutUs() {
     return (
         <>
@@ -56,6 +58,9 @@ function AboutUs() {
                     <div className="vision-title">
                         Our <strong>Vision</strong>
                     </div>
+                </div>
+                <div className="wrapper">
+                    <OverlappedImages />
                 </div>
                 <div className="our-mission">
                     <div className="mission-title">
