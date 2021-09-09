@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.sass";
 
 function Navbar() {
@@ -27,16 +28,16 @@ function Navbar() {
                 >
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a
+                            <Link
                                 className="nav-link"
                                 aria-current="page"
-                                href="#"
+                                to="/"
                             >
                                 HOME
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a
+                            <Link
                                 className="nav-link dropdown-toggle"
                                 href="#"
                                 id="navbarDropdown"
@@ -44,16 +45,17 @@ function Navbar() {
                                 data-toggle="dropdown"
                                 aria-haspopup="true"
                                 aria-expanded="false"
+                                to="/aboutus"
                             >
                                 ABOUT US
-                            </a>
+                            </Link>
                             <div
                                 className="dropdown-menu"
                                 aria-labelledby="navbarDropdown"
                             >
-                                <a className="dropdown-item" href="#">
+                                <Link className="dropdown-item" to="/aboutus">
                                     Vision and Mission
-                                </a>
+                                </Link>
                                 <div className="dropdown-divider"></div>
                                 <a className="dropdown-item" href="#">
                                     Committees

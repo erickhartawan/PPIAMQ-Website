@@ -1,8 +1,8 @@
 import "./Home.sass";
-import logo from "../../assets/img/ppiamq_logo.png";
-import WhoWeAre from "./Home/WhoWeAre";
-import Events from "./Home/Events/Events";
-import Seperator from "./Home/Seperator";
+import logo from "./../../../assets/img/ppiamq_logo.png";
+import WhoWeAre from "./WhoWeAre";
+import Events from "./Events/Events";
+import Seperator from "./Seperator";
 function Home() {
     return (
         <>
