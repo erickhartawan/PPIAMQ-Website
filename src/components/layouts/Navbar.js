@@ -85,9 +85,13 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                MEMBERSHIP CARD
-                            </a>
+                            <Link
+                                className="nav-link"
+                                aria-current="page"
+                                to="/member"
+                            >
+                                MEMBERSHIP BENEFIT
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">

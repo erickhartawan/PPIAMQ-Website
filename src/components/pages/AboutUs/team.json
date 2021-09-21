@@ -1,0 +1,53 @@
+{
+    "team": [
+        {
+            "id": 1,
+            "name": "haha",
+            "position": "president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        },
+        {
+            "id": 2,
+            "name": "haha",
+            "position": "vice president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Secretary",
+            "position": "president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Treasurer",
+            "position": "president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Director",
+            "position": "president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        },
+        {
+            "id": 6,
+            "name": "haha",
+            "position": "president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        },
+        {
+            "id": 7,
+            "name": "haha",
+            "position": "president",
+            "email": "email@gmail.com",
+            "imgPath": "haha.jpg"
+        }
+    ]
+}
